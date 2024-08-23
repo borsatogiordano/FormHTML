@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header {
+    width: 100%;
+    height: 385px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-header {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    margin-bottom: 48px;
+    width: 768px;
+}
+
+.inner-header h1 {
+    font-size: 40px;
+    padding: 8px;
+}
+
+.inner-header h2 {
+    color: rgb(104, 199, 255);
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 8px;
+    margin-top: 16px;
+}
+
+.myform {
+    width: 100%;
+    max-width: 768px;
+    padding: 50px;
+    background-color: red;
+    margin-top: -120px;
+    border-radius: 50px;
+}
+
+.myform fieldset {
+    margin: 64px;
+    background-color:white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.myform fieldset div {
+    margin-top: 16px;
+}
+
+
+.myform fieldset legend {
+    font-size: 36px;
+    font-weight: bold;
+    gap: 8px;
+}
+.myform span {
+    font-size: 13px;
+    color: #aeaeae;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.myform input {
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#extra-info {
+    width: 100%;
+    height: 104px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+

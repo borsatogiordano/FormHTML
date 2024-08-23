@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="inner-header">
+                <h1>
+                    Crie e compartilhe seu evento.
+                </h1>
+                <h2>
+                    O primeiro passo, é preencher esse formulário de inscrição.
+                </h2>
+            </div>
+        </header>
+        <form class="myform">
+            <fieldset>
+                <div>
+                    <legend>
+                        Informações do Evento
+                    </legend>
+
+                    <div class="input-wrapper">
+                        <label for="event-name">Titulo do evento <span> (mínimo de 8 carácteres)</span>
+                        </label>
+                        <input type="text" id="event-name" name="nome" required minlength="8" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="url">Link do evento <span> (comece com https://)</span></label>
+                        <input type="" id="event-date" name="data" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="number">Whatsapp para contato <span>(somente números)</span></label>
+                        <input type="number" name="number" id="number" />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="extra-info">Informações extras</label>
+                        <textarea id="extra-info"></textarea>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="category">Categoria</label>
+                        <select id="category">Selecione
+
+                            <option selected disabled value="selected">Selecione</option>
+                            <option value="ao-vivo">Ao vivo</option>
+                            <option value="podcast">Podcast</option>
+                            <option value="mentoria">Mentoria</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
